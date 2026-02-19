@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        environment: [Restfull Booker Env.json, qa_env.json]
+        environment: [Restfull Booker Env.json, QA.Env.json]
 
     steps:
       - name: Checkout Repository
